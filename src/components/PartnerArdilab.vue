@@ -5,10 +5,10 @@
             <carousel class="logo-carousel" :loop="true" :autoplay="true" :items="5" :dots="false" :nav="false">
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-1.png" alt="" />
+                        <img src="img/logo-carousel/AWS-logo.png" alt="" width="200" height="130"/>
                     </div>
                 </div>
-                <div class="logo-item">
+                <!-- <div class="logo-item">
                     <div class="tablecell-inner">
                         <img src="img/logo-carousel/logo-2.png" alt="" />
                     </div>
@@ -52,7 +52,7 @@
                     <div class="tablecell-inner">
                         <img src="img/logo-carousel/logo-5.png" alt="" />
                     </div>
-                </div>
+                </div> -->
             </carousel>
         </div>
     </div>

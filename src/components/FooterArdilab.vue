@@ -1,5 +1,9 @@
 <template>
   <!-- Footer Section Begin -->
+    <div class="Footer">
+
+     <RelatedArdilab />
+
   <footer class="footer-section">
     <div class="container">
       <div class="row">
@@ -42,7 +46,7 @@
                 <a href="#">Checkout</a>
               </li> -->
               <li>
-                <a href="#">Contact</a>
+                <a href="">Contact</a>
               </li>
               <li>
                 <a href="#">Serivius</a>
@@ -81,10 +85,13 @@
       </div>
     </div>
   </footer>
+    </div> 
   <!-- Footer Section End -->
 </template>
 
 <script>
+import ReleatedArdilab from "@/components/ReleatedArdilab.vue";
+
 export default {
     name: 'FooterArdilab'
 }
